@@ -86,29 +86,29 @@ en_US	vacuum_count	Total VACUUM	\N	\N	\N
 en_US	autovacuum_count	Total AUTO VACUUM	\N	\N	\N
 en_US	analyze_count	Total ANALYZE	\N	\N	\N
 en_US	autoanalyze_count	Total AUTO ANALYZE	\N	\N	\N
-en_US	last_vacuum	Último VACUUM	\N	\N	\N
-en_US	last_autovacuum	Último AUTO VACUUM	\N	\N	\N
-en_US	last_analyze	Último ANALYZE	\N	\N	\N
-en_US	last_autoanalyze	Último AUTO ANALYZE	\N	\N	\N
-en_US	sostats.memory	Memória	\N	\N	\N
-en_US	sostats.disk	Disco	\N	\N	\N
+en_US	last_vacuum	Last VACUUM	\N	\N	\N
+en_US	last_autovacuum	Last AUTO VACUUM	\N	\N	\N
+en_US	last_analyze	Last ANALYZE	\N	\N	\N
+en_US	last_autoanalyze	Last AUTO ANALYZE	\N	\N	\N
+en_US	sostats.memory	Memory	\N	\N	\N
+en_US	sostats.disk	Disk	\N	\N	\N
 en_US	sostats.cpu	CPU	\N	\N	\N
 en_US	pgstats.tablespaces.details	<code>{{tablespace_name | quote_literal}}</code>	\N	\N	\N
-en_US	server	Servidor:	Filtrar nome ou hostname do servidor	\N	\N
-en_US	customer	Cliente:	Cliente a ser apresentado nos filtros	\N	\N
+en_US	server	Server:	Filter servers name or hostname	\N	\N
+en_US	instance	Instance:	Instance PostgreSQL inside a server (also known as  "database cluster")	\N	\N
+en_US	customer	Customer:	Customer showing by the filters	\N	\N
 en_US	pgstats.tables.details	<code>{{database_name | quote_literal}}.{{schema_name | quote_literal}}.{{table_name | quote_literal}}</code>	\N	\N	\N
-en_US	database	Banco de dados:	Nome do banco de dados pertencente à instância/servidor selecionado	\N	\N
-en_US	instance	Instância:	Instância do serviço PostgreSQL pertencente ao servidor selecionado (também conhecido como "cluster de banco de dados")	\N	\N
-en_US	pgstats.tables	Tabelas	\N	\N	\N
-en_US	pgstats.databases	Banco de dados	\N	\N	\N
-en_US	pgstats.indexes	Índices	\N	\N	\N
+en_US	database	Databases:	Database name inside an instance	\N	\N
+en_US	pgstats.tables	Tables	\N	\N	\N
+en_US	pgstats.databases	Databases	\N	\N	\N
+en_US	pgstats.indexes	Indexes	\N	\N	\N
 en_US	pgstats.checkpoints	Checkpoints	\N	\N	\N
 en_US	pgstats.tablespaces	Tablespaces	\N	\N	\N
 en_US	pgstats.indexes.details	<code>{{database_name | quote_literal}}.{{schema_name | quote_literal}}.{{index_name | quote_literal}}</code>	\N	\N	\N
 en_US	menu-toggle	Menu	Exibir/esconder menu	\N	\N
-en_US	more-details	mais detalhes	\N	\N	\N
-en_US	select-server-instance-database	Servidor/instância/banco	Escolher servidor, instância e banco de dados	\N	\N
-en_US	sostats	Sistema Operacional	\N	\N	\N
+en_US	more-details	more details	\N	\N	\N
+en_US	select-server-instance-database	Server/instance/database	Select server, instance(cluster) and databases	\N	\N
+en_US	sostats	Operating System	\N	\N	\N
 en_US	backups	Backups Executados	\N	\N	\N
 en_US	diagnostics	Diagnósticos e Recomendações	\N	\N	\N
 en_US	overview	Visão Geral	\N	\N	\N
@@ -144,24 +144,24 @@ en_US	database_size_mb	Tamanho da base	\N	\N	\N
 en_US	datetime	Data/hora	\N	\N	\N
 en_US	datfrozenxid	XID frozen	\N	\N	\N
 en_US	deadlocks	Deadlocks	\N	\N	\N
-en_US	diagnostic	Diagnóstico	\N	\N	\N
-en_US	diskioblocks_mb_read_sec	Leituras por segundo	\N	\N	\N
-en_US	diskioblocks_mb_write_sec	Escritas por segundo	\N	\N	\N
-en_US	diskioreq_read_sec	Requisições de leitura por segundo	\N	\N	\N
-en_US	diskioreq_write_sec	Requisições de escrita por segundo	\N	\N	\N
-en_US	diskiotps	Transações de I/O por segundo	\N	\N	\N
-en_US	diskread_mb_sec	Leitura/MB por segundo	\N	\N	\N
-en_US	diskreq_mb_size_avg	Requisição/MB por segundo	\N	\N	\N
-en_US	diskreq_queue_avg	Média da fila de requisições	\N	\N	\N
+en_US	diagnostic	Diagnostics	\N	\N	\N
+en_US	diskioblocks_mb_read_sec	Reads per second	\N	\N	\N
+en_US	diskioblocks_mb_write_sec	Writes per second	\N	\N	\N
+en_US	diskioreq_read_sec	Read requests per second	\N	\N	\N
+en_US	diskioreq_write_sec	Write requests per second	\N	\N	\N
+en_US	diskiotps	I/O transactions per second	\N	\N	\N
+en_US	diskread_mb_sec	Read/MB per second	\N	\N	\N
+en_US	diskreq_mb_size_avg	Request/MB per second	\N	\N	\N
+en_US	diskreq_queue_avg	Average request queue size	\N	\N	\N
 en_US	disktps	TPS	\N	\N	\N
 en_US	diskutil_perc	% util	\N	\N	\N
-en_US	diskwrite_mb_sec	Escrita/MB por segundo	\N	\N	\N
-en_US	duration	Duração	\N	\N	\N
+en_US	diskwrite_mb_sec	Writes/MB per second	\N	\N	\N
+en_US	duration	Duration	\N	\N	\N
 en_US	message	Mensagem	\N	\N	\N
-en_US	help	Ajuda	\N	\N	\N
+en_US	help	Help	\N	\N	\N
 en_US	idx_scan	index-scan	\N	\N	\N
-en_US	index_name	Nome do índice	\N	\N	\N
-en_US	index_size_mb	Tamanho do índice	\N	\N	\N
+en_US	index_name	Index name	\N	\N	\N
+en_US	index_size_mb	Index size	\N	\N	\N
 en_US	instance_name	Nome da instância	\N	\N	\N
 en_US	lag_conflicts	Diferença de conflitos	\N	\N	\N
 en_US	lag_database_size_mb	Diferença de tamanho	\N	\N	\N
