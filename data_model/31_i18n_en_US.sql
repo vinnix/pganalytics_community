@@ -201,19 +201,19 @@ en_US	spclocation	Tablespace location	\N	\N	\N
 en_US	tablespace_name	Tablespace name	\N	\N	\N
 en_US	tablespace_size_mb	Tablespace size	\N	\N	\N
 en_US	temp_bytes_mb	Temporary files size	\N	\N	\N
-en_US	tup_deleted	Tuplas deletadas	\N	\N	\N
-en_US	tup_inserted	Tuplas inseridas	\N	\N	\N
-en_US	tup_updated	Tuplas atualizadas	\N	\N	\N
-en_US	type	Tipo	\N	\N	\N
-en_US	value	Valor	\N	\N	\N
+en_US	tup_deleted	Tuples deleted	\N	\N	\N
+en_US	tup_inserted	Tuples inserted	\N	\N	\N
+en_US	tup_updated	Tuples updated	\N	\N	\N
+en_US	type	Type	\N	\N	\N
+en_US	value	Value	\N	\N	\N
 en_US	volume	Volume	\N	\N	\N
-en_US	job_description	Alerta	\N	\N	\N
-en_US	memory_usage	Uso de memória	\N	\N	\N
-en_US	backup_details	Detalhes do backup	\N	\N	\N
+en_US	job_description	Alert	\N	\N	\N
+en_US	memory_usage	Memory usage	\N	\N	\N
+en_US	backup_details	Backup details	\N	\N	\N
 en_US	backups.pgdump	Backups pg_dump	\N	\N	\N
-en_US	backups.pgdump.details	Detalhes do backup	\N	\N	\N
-en_US	checkpoint_by	Tipo de requisição	\N	\N	\N
-en_US	checkpoint_time	Tempo das requisições	\N	\N	\N
+en_US	backups.pgdump.details	Backup details	\N	\N	\N
+en_US	checkpoint_by	Request type	\N	\N	\N
+en_US	checkpoint_time	Request time	\N	\N	\N
 en_US	customer_id	customer_id	\N	\N	\N
 en_US	database_id	database_id	\N	\N	\N
 en_US	extra_param	extra_param	\N	\N	\N
@@ -222,11 +222,11 @@ en_US	key	key	\N	\N	\N
 en_US	name	name	\N	\N	\N
 en_US	name_id	name_id	\N	\N	\N
 en_US	server_id	server_id	\N	\N	\N
-en_US	diskreq_wait_ms	Tempo de espera das requisições	\N	\N	\N
-en_US	server_name	Servidor	Nome do servidor	Nome do servidor PostgreSQL, geralmente o hostname da máquina	\N
-en_US	critical	Crítico	Alerta de nível crítico	Alertas críticos exigem uma análise imediata da situação para evitar problemas futuros.	\N
-en_US	warning	Aviso	Alerta de nível aviso	Alertas aviso indicam itens que merecem atenção, mas  que ainda estão com métricas aceitáveis.	\N
-en_US	information	Informação	Alerta de nível informação	Alertas informação indicam a normalização de alertas do tipo "Alarme" ou exibem resultados de alertas do tipo "Informação".	\N
+en_US	diskreq_wait_ms	Disk requests time waiting	\N	\N	\N
+en_US	server_name	Server	Server Name 	PostgreSQL servername, usually the hostname	\N
+en_US	critical	Critical	Critical Alert level	Alertas críticos exigem uma análise imediata da situação para evitar problemas futuros.	\N
+en_US	warning	Warning	Warning Alert level	Alertas aviso indicam itens que merecem atenção, mas  que ainda estão com métricas aceitáveis.	\N
+en_US	information	Information	Information Alert level	Alertas informação indicam a normalização de alertas do tipo "Alarme" ou exibem resultados de alertas do tipo "Informação".	\N
 en_US	blks_read_mb	Leitura em disco			\N
 en_US	overview_alerts_by_server	Alertas por servidor	Detalhamento de alertas do servidor	Exibe informações detalhadas sobre os alertas para cada servidor.	\N
 en_US	overview_alerts	Alertas	Quantidade de alertas recebidos por servidor e nível do alerta	Exibe todos os alertas, sejam eles do tipo "Informação" ou "Alarme", porém somente os alertas do tipo "Alarme" são enviados por email.	\N
