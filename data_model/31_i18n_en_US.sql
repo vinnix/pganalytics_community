@@ -109,39 +109,39 @@ en_US	menu-toggle	Menu	Exibir/esconder menu	\N	\N
 en_US	more-details	more details	\N	\N	\N
 en_US	select-server-instance-database	Server/instance/database	Select server, instance(cluster) and databases	\N	\N
 en_US	sostats	Operating System	\N	\N	\N
-en_US	backups	Backups Executados	\N	\N	\N
-en_US	diagnostics	Diagnósticos e Recomendações	\N	\N	\N
-en_US	overview	Visão Geral	\N	\N	\N
+en_US	backups	Backups Executed	\N	\N	\N
+en_US	diagnostics	Diagnostics and Recomendations	\N	\N	\N
+en_US	overview	Overview	\N	\N	\N
 en_US	pgstats.databases.details	<code>{{database_name | quote_literal}}</code>	\N	\N	\N
 en_US	widgetError	Erro ao carregar componente, por favor tente novamente ou tente <a href="javascript:location.reload()">recarregar seu navegador</a>. Caso o error persista entre em contato com <a href="mailto:dba@pganalytics.com.br">dba@pganalytics.com.br</a><br>Detalhes do erro: {{message}}	\N	\N	\N
-en_US	alert_severity	Nível	\N	\N	\N
-en_US	alert_time	Data/hora alerta	\N	\N	\N
-en_US	autor	Autor	\N	\N	\N
-en_US	backup_end	Data/hora fim	\N	\N	\N
-en_US	pgstats_ovwtablespace	Informações gerais de tablespaces	\N	\N	\N
-en_US	pgstats_ovwdbinfo	Informações gerais de bancos de dados	\N	\N	\N
-en_US	backup_file	Arquivo de backup	\N	\N	\N
-en_US	backup_parts	Partes	\N	\N	\N
-en_US	backup_part	Parte	\N	\N	\N
-en_US	backup_size	Tamanho do backup	\N	\N	\N
-en_US	blks_hit_perc	Porcentagem de leituras em memória	\N	\N	\N
-en_US	category	Categoria	\N	\N	\N
-en_US	checkpoint_req	Requisições imediatas	\N	\N	\N
-en_US	checkpoint_sync_time_ms	Tempo de sync	\N	\N	\N
-en_US	checkpoint_timed	Requisições por tempo	\N	\N	\N
-en_US	checkpoint_write_time_ms	Tempo de escrita	\N	\N	\N
-en_US	conflicts	Conflitos	\N	\N	\N
-en_US	cpu_contextswt_sec	Troca de contexto por segundo	\N	\N	\N
+en_US	alert_severity	Level	\N	\N	\N
+en_US	alert_time	Date/hour alert	\N	\N	\N
+en_US	autor	Author	\N	\N	\N
+en_US	backup_end	Date/hour end	\N	\N	\N
+en_US	pgstats_ovwtablespace	Tablespaces general information	\N	\N	\N
+en_US	pgstats_ovwdbinfo	Databases general information	\N	\N	\N
+en_US	backup_file	Backup file	\N	\N	\N
+en_US	backup_parts	Backup parts	\N	\N	\N
+en_US	backup_part	Parts	\N	\N	\N
+en_US	backup_size	Backup size	\N	\N	\N
+en_US	blks_hit_perc	Read in memory (percent)	\N	\N	\N
+en_US	category	Category	\N	\N	\N
+en_US	checkpoint_req	Immediate requests	\N	\N	\N
+en_US	checkpoint_sync_time_ms	Sync time	\N	\N	\N
+en_US	checkpoint_timed	Timed requests	\N	\N	\N
+en_US	checkpoint_write_time_ms	Write time (ms)	\N	\N	\N
+en_US	conflicts	Conflicts	\N	\N	\N
+en_US	cpu_contextswt_sec	Context switch per second	\N	\N	\N
 en_US	cpu_idle_perc	% idle	\N	\N	\N
 en_US	cpu_iowait_perc	% iowait	\N	\N	\N
 en_US	cpu_nice_perc	% nice	\N	\N	\N
 en_US	cpu_steal_perc	% steal	\N	\N	\N
 en_US	cpu_system_perc	% system	\N	\N	\N
-en_US	cpu_taskcreated_sec	Processos criados por segundo	\N	\N	\N
+en_US	cpu_taskcreated_sec	Processes created per second	\N	\N	\N
 en_US	cpu_user_perc	% user	\N	\N	\N
-en_US	data	Dados	\N	\N	\N
-en_US	database_size_mb	Tamanho da base	\N	\N	\N
-en_US	datetime	Data/hora	\N	\N	\N
+en_US	data	Data	\N	\N	\N
+en_US	database_size_mb	Database size	\N	\N	\N
+en_US	datetime	Date/time	\N	\N	\N
 en_US	datfrozenxid	XID frozen	\N	\N	\N
 en_US	deadlocks	Deadlocks	\N	\N	\N
 en_US	diagnostic	Diagnostics	\N	\N	\N
@@ -162,7 +162,7 @@ en_US	help	Help	\N	\N	\N
 en_US	idx_scan	index-scan	\N	\N	\N
 en_US	index_name	Index name	\N	\N	\N
 en_US	index_size_mb	Index size	\N	\N	\N
-en_US	instance_name	Nome da instância	\N	\N	\N
+en_US	instance_name	Instance name	\N	\N	\N
 en_US	lag_conflicts	Diferença de conflitos	\N	\N	\N
 en_US	lag_database_size_mb	Diferença de tamanho	\N	\N	\N
 en_US	lag_datfrozenxid	Diferença de XID frozen	\N	\N	\N
@@ -172,7 +172,7 @@ en_US	lag_index_size_kb	Diferença de tamanho	\N	\N	\N
 en_US	lag_relation_size_kb	Diferença de tamanho	\N	\N	\N
 en_US	lag_tablespace_size_mb	Diferença de tamanho	\N	\N	\N
 en_US	lag_temp_bytes_mb	Diferença do tamanho de dados temporários	\N	\N	\N
-en_US	max	Máximo	\N	\N	\N
+en_US	max	Maximum	\N	\N	\N
 en_US	mem_buffercache_mb	Buffer/cache	\N	\N	\N
 en_US	mem_commit_perc	% commit	\N	\N	\N
 en_US	mem_free_mb	Livre	\N	\N	\N
@@ -183,24 +183,24 @@ en_US	mem_swapout_sec	Swap OUT	\N	\N	\N
 en_US	mem_swapused_mb	Swap usado	\N	\N	\N
 en_US	mem_used_mb	Usada	\N	\N	\N
 en_US	min	Mínimo	\N	\N	\N
-en_US	n_dead_tup	Tuplas mortas	\N	\N	\N
-en_US	n_live_tup	Tuplas vivas	\N	\N	\N
-en_US	n_tup_del	Tuplas deletadas	\N	\N	\N
-en_US	n_tup_hot_upd	Tuplas HOT-update	\N	\N	\N
-en_US	n_tup_ins	Tuplas inseridas	\N	\N	\N
-en_US	n_tup_upd	Tuplas atualizadas	\N	\N	\N
-en_US	port	Porta	\N	\N	\N
-en_US	priority	Prioridade	\N	\N	\N
-en_US	recomendation	Recomendação	\N	\N	\N
-en_US	relation_size_mb	Tamanho da relação	\N	\N	\N
+en_US	n_dead_tup	Dead tuples	\N	\N	\N
+en_US	n_live_tup	Live tuples	\N	\N	\N
+en_US	n_tup_del	Deleted tuples	\N	\N	\N
+en_US	n_tup_hot_upd	HOT-updated tuples	\N	\N	\N
+en_US	n_tup_ins	Tuples inserted	\N	\N	\N
+en_US	n_tup_upd	Tuples updated	\N	\N	\N
+en_US	port	Port	\N	\N	\N
+en_US	priority	Priority	\N	\N	\N
+en_US	recomendation	Recomendation	\N	\N	\N
+en_US	relation_size_mb	Relation size	\N	\N	\N
 en_US	relfrozenxid	XID frozen	\N	\N	\N
-en_US	schema	Esquema	\N	\N	\N
-en_US	section	Seção	\N	\N	\N
+en_US	schema	Schema	\N	\N	\N
+en_US	section	Section	\N	\N	\N
 en_US	seq_scan	seq-scan	\N	\N	\N
-en_US	spclocation	Local do tablespace	\N	\N	\N
-en_US	tablespace_name	Nome do tablespace	\N	\N	\N
-en_US	tablespace_size_mb	Tamanho do tablespace	\N	\N	\N
-en_US	temp_bytes_mb	Tamanho de dados temporários	\N	\N	\N
+en_US	spclocation	Tablespace location	\N	\N	\N
+en_US	tablespace_name	Tablespace name	\N	\N	\N
+en_US	tablespace_size_mb	Tablespace size	\N	\N	\N
+en_US	temp_bytes_mb	Temporary files size	\N	\N	\N
 en_US	tup_deleted	Tuplas deletadas	\N	\N	\N
 en_US	tup_inserted	Tuplas inseridas	\N	\N	\N
 en_US	tup_updated	Tuplas atualizadas	\N	\N	\N
