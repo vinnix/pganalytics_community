@@ -28,4 +28,5 @@ initdb -k -U postgres
 pg_ctl start
 
 psql -U postgres -f 01*.sql
-psql -U postgres -f 02*.sql
+psql -U postgres -f 02*.sql  #  split -C 52428800  02_pganalytics.sql
+
