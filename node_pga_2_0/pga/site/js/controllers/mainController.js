@@ -179,7 +179,7 @@ pganalytics.controller('MainCtrl', ['$scope', '$sce', '$interpolate', 'databaseS
 
 	$scope.listCharts = function() {
 		$scope.mainNavigation.currStep = $scope.mainNavigation.LOADING_WIDGETS;
-		i18nService.loadLanguage("pt_BR", function(i18n_data) {
+		i18nService.loadLanguage("en_US", function(i18n_data) {
 
 			$scope.i18n = i18n_data;
 
@@ -637,7 +637,7 @@ pganalytics.controller('MainCtrl', ['$scope', '$sce', '$interpolate', 'databaseS
 		$scope.widgetHelpDetails = null;
 		if ($scope.selectCharts01 && $scope.selectCharts01.key && $scope.i18n[$scope.selectCharts01.key] && $scope.i18n[$scope.selectCharts01.key].has_help) {
 			databaseService
-				.getWidgetHelp('pt_BR', $scope.selectCharts01.key)
+				.getWidgetHelp('en_US', $scope.selectCharts01.key)
 				.then(function(response) {
 					if (response.data && response.data.length === 1) {
 						$scope.widgetHelpDetails = $sce.trustAsHtml(response.data[0].help);

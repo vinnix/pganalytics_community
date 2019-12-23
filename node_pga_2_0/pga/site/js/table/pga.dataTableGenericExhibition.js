@@ -23,26 +23,26 @@ function mountDataTableExhibition(json, tableDom, rowClickCallback, serverSidePr
 	delete extra_options.rowCallback;
 	var options = {
 			"language": {
-				"sEmptyTable": "Nenhum registro encontrado",
-				"sInfo": "Mostrando de _START_ até _END_ de _TOTAL_ registros",
-				"sInfoEmpty": "Mostrando 0 até 0 de 0 registros",
-				"sInfoFiltered": "(Filtrados de _MAX_ registros)",
+				"sEmptyTable": "None registers found",
+				"sInfo": "Showing from _START_ until _END_ of _TOTAL_ registers",
+				"sInfoEmpty": "Showing 0 until 0 of 0 registers",
+				"sInfoFiltered": "(Filtering of _MAX_ registers)",
 				"sInfoPostFix": "",
 				"sInfoThousands": ".",
-				"sLengthMenu": "_MENU_ resultados por página",
-				"sLoadingRecords": "Carregando...",
-				"sProcessing": "Carregando dados <span class='loading-component'></span>",
-				"sZeroRecords": "Nenhum registro encontrado",
-				"sSearch": "Pesquisar: ",
+				"sLengthMenu": "_MENU_ results per page",
+				"sLoadingRecords": "Loading...",
+				"sProcessing": "Loading data.. <span class='loading-component'></span>",
+				"sZeroRecords": "None registers found",
+				"sSearch": "Search: ",
 				"oPaginate": {
-					"sNext": "Próximo",
-					"sPrevious": "Anterior",
-					"sFirst": "Primeiro",
-					"sLast": "Último"
+					"sNext": "Next",
+					"sPrevious": "Previous",
+					"sFirst": "First",
+					"sLast": "Last"
 				},
 				"oAria": {
-					"sSortAscending": ": Ordenar colunas de forma crescente",
-					"sSortDescending": ": Ordenar colunas de forma decrescente"
+					"sSortAscending": ": Columns by Ascending order",
+					"sSortDescending": ": Columns by Descending order"
 				}
 			},
 			"bProcessing": true,

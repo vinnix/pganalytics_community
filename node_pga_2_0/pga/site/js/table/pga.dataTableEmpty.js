@@ -1,25 +1,25 @@
 function mountEmptyTable(tableDom){
 	var tabela = $(tableDom).DataTable({
    		"language": {
-		    "sEmptyTable": "Nenhum registro encontrado",
-		    "sInfoEmpty": "Mostrando 0 até 0 de 0 registros",
-		    "sInfoFiltered": "(Filtrados de _MAX_ registros)",
+		    "sEmptyTable": "None registers found",
+		    "sInfoEmpty": "Showing 0 until 0 of 0 registers",
+		    "sInfoFiltered": "(Filtered of _MAX_ registers)",
 		    "sInfoPostFix": "",
 		    "sInfoThousands": ".",
-		    "sLengthMenu": "_MENU_ resultados por página",
-		    "sLoadingRecords": "Carregando...",
-		    "sProcessing": "Processando...",
-		    "sZeroRecords": "Nenhum registro encontrado",
-		    "sSearch": "Pesquisar: ",
+		    "sLengthMenu": "_MENU_ results per page",
+		    "sLoadingRecords": "Loading...",
+		    "sProcessing": "Processing...",
+		    "sZeroRecords": "None regiters found",
+		    "sSearch": "Search: ",
 		    "oPaginate": {
-		        "sNext": "Próximo",
-		        "sPrevious": "Anterior",
-		        "sFirst": "Primeiro",
-		        "sLast": "Último"
+		        "sNext": "Next",
+		        "sPrevious": "Previous",
+		        "sFirst": "First",
+		        "sLast": "Last"
 		    },
 		    "oAria": {
-		        "sSortAscending": ": Ordenar colunas de forma ascendente",
-		        "sSortDescending": ": Ordenar colunas de forma descendente"
+		        "sSortAscending": ": Sort columns in ascending order",
+		        "sSortDescending": ": Sort colunas in descending order"
 		    }
 		},
        "bProcessing": true,

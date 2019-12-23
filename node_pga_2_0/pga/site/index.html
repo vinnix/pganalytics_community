@@ -80,7 +80,7 @@
 
 		<div class="loader-progress step-{{mainNavigation.currStep / mainNavigation.LOADED_ALL * 10 | number: 0}}"></div>
 		<div class="pre-loading-msg" ng-hide="!mainNavigation || mainNavigation.currStep > 0">
-			Carregando <span class="text-logo"><span class="logo-pg">pg</span><span class="logo-analytics">Analytics</span></span>...
+			Loading <span class="text-logo"><span class="logo-pg">pg</span><span class="logo-analytics">Analytics</span></span>...
 			<span class="loading-component"></span>
 		</div>
 
@@ -160,10 +160,10 @@
 			<div id="wrapper">
 				<div class="area-periodo">
 					<div id="periodo">
-						<a href="javascript:void(0)" ng-click="showDatepicker = !showDatepicker" class="toggle-datepicker"><span ng-class="'fa ' + (showDatepicker ? 'fa-minus-square-o' : 'fa-plus-square-o')"></span> Filtrar período de tempo</a>
+						<a href="javascript:void(0)" ng-click="showDatepicker = !showDatepicker" class="toggle-datepicker"><span ng-class="'fa ' + (showDatepicker ? 'fa-minus-square-o' : 'fa-plus-square-o')"></span> Filter period</a>
 						<div class="datepicker-row" ng-show="showDatepicker">
 							<div class="datetime-from">
-								<label for="input-dateFrom" class="date-from">De</label>
+								<label for="input-dateFrom" class="date-from">From:</label>
 								<div class="datepicker">
 									<span class="input-group">
 										<input type="text" class="form-control period-picker" datepicker-popup="{{format}}" ng-model="dateFrom" is-open="showFrom" datepicker-options="dateOptions" ng-required="true" show-button-bar="false" min-date="minDateTime" max-date="maxDateTime" id="input-dateFrom" />
@@ -182,7 +182,7 @@
 							</div>
 
 							<div class="datetime-to">
-								<label for="input-dateTo">até</label>
+								<label for="input-dateTo">Until:</label>
 
 								<div class="datepicker">
 									<span class="input-group">
