@@ -1,6 +1,10 @@
 var pg = require('pg');
 
-var url = ':@/pganalytics?application_name=pganalytics';
+var dbport = '5444';
+var dbhost = '127.0.0.1' ;
+var dbname = 'pganalytics';
+
+var url = ':@' + dbhost + ':' + dbport + '/' + dbname  + '?application_name=pganalytics';
 
 function resolveURL(name) {
 	var dbuser = '';
