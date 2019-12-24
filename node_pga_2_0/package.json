@@ -44,7 +44,8 @@
     "smtp-connection": "",
     "split": "",
     "string_decoder": "",
-    "through2": ""
+    "through2": "",
+    "proxy-addr": ""
   },
   "devDependencies": {
     "jasmine-core": "",
