@@ -12,6 +12,7 @@ var autoless = require('./autoless');
 var compress = require('compression');
 
 
+
 function service(req, resp) {
 	var array = req.baseUrl.split('/');
 	var serviceName = array[3];
@@ -80,6 +81,10 @@ exports.init = function(callback) {
 	app.use(function(req, resp, next) {
 		return opts.filter(req, resp, next);
 	});
+
+	app.set('trust proxy', 'loopback'); // specify a single subnet;
+	app.enable('trust proxy');
+
 	app.use('/pga/s/*', service);
 	opts.server = app.listen(opts.port, function() {
 		exports.opts.port = opts.server.address().port;
