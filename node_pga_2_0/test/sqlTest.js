@@ -1,4 +1,4 @@
-var t = require('qunitjs');
+var t = require('qunit');
 var u = require('./util/testutil');
 
 exports.load = function() {
