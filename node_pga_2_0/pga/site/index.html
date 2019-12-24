@@ -73,7 +73,7 @@
 	<script src="bower_components/less/dist/less.js"></script>
 
 	<!-- Google Analytics -->
-	<script type="text/javascript" src="//www.google-analytics.com/analytics.js"></script>
+	<!-- <script type="text/javascript" src="//www.google-analytics.com/analytics.js"></script> -->
 
 </head>
 <body ng-controller='MainCtrl' class="main">
@@ -203,11 +203,11 @@
 
 							<div class="hotkeys">
 								<div class="btn-group" role="group" aria-label="...">
-									<button type="button" class="btn btn-default time-move-back" ng-click="timeMoveBack()" title="Mover para 1 hora antes">1h</button>
-									<button type="button" class="btn btn-default time-move-8h" ng-click="timeMoveRelativeToEnd(-8)" title="Mover para últimas 8 horas">8 horas</button>
-									<button type="button" class="btn btn-default time-move-1d" ng-click="timeMoveRelativeToEnd(-24)" title="Mover para último dia">1 dia</button>
-									<button type="button" class="btn btn-default time-move-1w" ng-click="timeMoveRelativeToEnd(-168)" title="Mover para última semana">1 semana</button>
-									<button type="button" class="btn btn-default time-move-forward" ng-click="timeMoveForward()" title="Mover para 1 hora depois">1h</button>
+									<button type="button" class="btn btn-default time-move-back" ng-click="timeMoveBack()" title="previous 1 hour">1h</button>
+									<button type="button" class="btn btn-default time-move-8h" ng-click="timeMoveRelativeToEnd(-8)" title="Last 8 hours">8 hours</button>
+									<button type="button" class="btn btn-default time-move-1d" ng-click="timeMoveRelativeToEnd(-24)" title="Move to the last day">1 day</button>
+									<button type="button" class="btn btn-default time-move-1w" ng-click="timeMoveRelativeToEnd(-168)" title="Last week">1 week</button>
+									<button type="button" class="btn btn-default time-move-forward" ng-click="timeMoveForward()" title=" next 1 hour">1h</button>
 								</div>
 							</div>
 
@@ -441,7 +441,7 @@
 
 <!-- Configure and send Google Analytics pageview -->
 <script>
-	GA.sendPageView();
+	<!-- GA.sendPageView(); -->
 </script>
 
 </html>
