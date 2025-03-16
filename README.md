@@ -2,7 +2,9 @@
 
 ABOUT US
 
-Dextra (BR) / Dexence (US) is a technology company that has a long history with the PostgreSQL world. PgAnalytics is a web based software to help DBAs and non-DBAs to better manage their PostgreSQL Instances. It is offered in two ways: the open-source version and as a Software as a Service (SaaS) tool. For more information access www.pganalytics.com.br
+Dextra (BR) / Dexence (US) is a technology company that has a long history with the PostgreSQL world. PgAnalytics is a web based software to help DBAs and non-DBAs to better manage their PostgreSQL Instances. It is offered in two ways: the open-source version and as a Software as a Service (SaaS) tool. For more information access www.pganalytics.com.br (deprecated).
+
+All cycles of this system development were done by the colleagues https://github.com/vinnix/vinnix, https://github.com/matheusoliveira https://github.com/matheus-espanhol-movile while working over there. Later on, gently the code was made available to public by the team.
 
 INSTALLATION
 
