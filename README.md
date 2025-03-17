@@ -28,7 +28,7 @@ INSTALLATION
 		1. Install the pre-reqs
 		2. Download the source-code (link can be found at www.pganalytics.com.br )
 		3. Unpack the source-code
-		4. Set up the database executing the scripts at "pganalytics_community-master/data_model/"
+		4. Set up the database executing the scripts at "pganalytics_community-master/data_definition_settings/"
 		5. Set up the connection string to suit your environment in "pganalytics_community-master/node_pga_2_0/pga/util/db.js":
 			
 			#Local connection without password:
